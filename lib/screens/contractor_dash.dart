@@ -11,6 +11,7 @@ class ContractorDashboard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const num id = 234234;
     return Scaffold(
       appBar: AppBar(
         title: const Text("Contractor Dashboard"),
@@ -26,6 +27,14 @@ class ContractorDashboard extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
+                  color: Colors.black87,
+                ),
+              ),
+              const SizedBox(height: 20),
+              const Text(
+                "UID $id",
+                style: TextStyle(
+                  fontSize: 24,
                   color: Colors.black87,
                 ),
               ),

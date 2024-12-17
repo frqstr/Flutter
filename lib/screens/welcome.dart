@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'sign_inOrSign_up.dart';
+import 'worker_screens/wSignInOrSignUp.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -46,7 +47,7 @@ class WelcomeScreen extends StatelessWidget {
                           onPressed: () {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) => const SignInSignUpPage()),
+                              MaterialPageRoute(builder: (context) => const wSignInSignUpPage()),
                             );
                           },
                           child: Text(
